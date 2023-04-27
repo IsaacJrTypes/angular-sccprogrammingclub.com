@@ -34,6 +34,7 @@ import { ExampleProjectComponent } from './pages/project/example-project/example
 import { ProjectComponent } from './pages/project/project.component';
 import { PowdertoyCloneComponent } from './pages/project/powdertoy-clone/powdertoy-clone.component';
 import { SnakeProjectComponent } from './pages/project/snake-project/snake-project.component';
+import { GameProjectComponent } from './pages/project/game-project/game-project.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { SnakeProjectComponent } from './pages/project/snake-project/snake-proje
     ProjectComponent,
     PowdertoyCloneComponent,
     SnakeProjectComponent,
+    GameProjectComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, MatIconModule],
   providers: [MemberService, CommentService],
